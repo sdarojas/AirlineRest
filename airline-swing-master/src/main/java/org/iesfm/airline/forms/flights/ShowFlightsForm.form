@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.iesfm.airline.forms.flights.ShowFlightsForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="empty">
+      <size top="10" left="10" bottom="10" right="10"/>
+    </border>
+    <children>
+      <scrollpane id="84b08">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="efbb5" class="javax.swing.JTable" binding="flightsTable">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="99948" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b1732" class="javax.swing.JButton" binding="addButton">
+            <constraints/>
+            <properties>
+              <text value="Añadir"/>
+            </properties>
+          </component>
+          <component id="dde31" class="javax.swing.JButton" binding="modifyButton">
+            <constraints/>
+            <properties>
+              <text value="Modificar"/>
+            </properties>
+          </component>
+          <component id="afc43" class="javax.swing.JButton" binding="deleteButton">
+            <constraints/>
+            <properties>
+              <text value="Eliminar"/>
+            </properties>
+          </component>
+          <component id="39f3a" class="javax.swing.JButton" binding="refreshButton">
+            <constraints/>
+            <properties>
+              <text value="Actualizar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
